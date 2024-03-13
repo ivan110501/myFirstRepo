@@ -1,0 +1,30 @@
+:root {
+  --border-rounded: 0.5rem;
+  --border-circle: 1000rem;
+
+  --color-white: #fff;
+  --color-black: #222;
+
+  --color-gray-200: #ecf0f1;
+  --color-gray-700: #575757;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.cart {
+  border: 1px solid black;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import "./components/card.scss";
+@import "./components/field.scss";
+@import "./components/box.scss";
+@import "./components/layout.scss";
